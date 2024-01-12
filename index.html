@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
     <head>
         <meta charset="utf-8" />
         <title>Home | Sticky Note</title>
-        <link rel="stylesheet" href="./style.css" />
-        <script src="./script.js"></script>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -19,7 +19,7 @@
                     <textarea name="note-input" id="input"></textarea>
                     <div id="send-note-container">
                         <button id="send-note-btn" onclick="sendNote()">
-                            <img src="./icon_arrow_right.png">
+                            <img src="images/icon_arrow_right.png">
                         </button>
                     </div>
                 </div>
@@ -27,10 +27,11 @@
             
 
             <hr class="page-divider"/>
+
             <section class="row flex-center">
                 <div id="notes-group inner-container">
                     <div id="notes-header" class="row">
-                        <img src="note_icon.png" width="40", height="40"/>
+                        <img class="note-icon" src="images/note_icon.png">
                         <h2>Note</h2>
                     </div>
                     <ul id="notes"></ul>
